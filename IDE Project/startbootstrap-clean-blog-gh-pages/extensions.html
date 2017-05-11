@@ -9,13 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Visual Studio - Home</title>
+    <title>Visual Studio - Extensions</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/clean-blog.css" rel="stylesheet">
+    <link href="css/clean-blog.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -72,80 +72,61 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header">
-		<div id="imageWrapper">
-		<img id="headerImage" src="img/visualStudio.jpg">
-		</div>
+    <header class="intro-header" style="background-image: url('img/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">An Intro the Microsoft Visual Studio
-                        <hr class="small">
-                        <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
+                    <div class="post-heading">
+                        <h1>Extensions</h1>
+                        <h2 class="subheading">Make your Visual Studio even better with these top extensions / plugins.</h2>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Man must explore, and this is exploration at its greatest
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Problems look mighty small from 150 miles up
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-                        </h2>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Science has not yet mastered prophecy
-                        </h2>
-                        <h3 class="post-subtitle">
-                            We predict too much for the next year and yet far too little for the next ten.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Failure is not an option
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2014</p>
-                </div>
-                <hr>
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+					<div style="margin-bottom: 8%;">
+						<h2>Web Essentials</h2>
+						<p>Web Essentials is very well-named, it's essential, there is a whole host of features that Web Essential<br> adds to Visual Studio, from Browser Link to its amazing addition to CSS intellisense and zen coding<br> and more. You can see the complete feature list in Web Essential site. One other thing to point out is that<br> in the past the minifying capability and Web Essential feature for image was all in Web Essential, for Visual<br> Studio 2015. This feature is now available as separate extensions, namely:
+						<ul><li>Bundler & Minifier</li>
+						<li>Image Optimizer</li>
+						<li>Web Compiler</li></ul>
+						<img class="img-responsive" src="img/vsExtensions.JPG" alt="" style="margin-left: 88%; margin-top: -32%">
+						</p>
+					</div>
+					<h2>JQuery Code Snippets</h2>
+                    <p>This one is pretty self explanatory, it extends the Visual Studio jQuery snippets, and you don't need to spend your time typing $.ajax and what comes after it, it makes your jQuery coding speed a lot faster.</p>
+
+                    <h2>Bootstrap snippet pack</h2>
+					<p>The same thing as jQuery snippet, but this time it's for Bootstrap, it makes your life a lot easier and you don't have to look for examples on the web anymore, just type "bs-Something" and you're good to go.</p>
+
+                    <h2>ASP.NET MVC BoilerPlate</h2>
+					<p>Are you sick and tired of adding must use packages and tools like elmah, glimpse, etc. to your project every time you want to start a project? Well, ASP.NET MVC Boilerplate addresses this issue, it is a template with all the packages and components that we use in every project, but it is not in default Visual Studio template.</p>
+
+                    <h2>SideWaffle Template Pack</h2>
+					<p>Another amazing extension, it adds tons of templates to the Visual Studio template, from templates for creating jQuery plugin to Angularjs Project template, it also makes creating custom templates a whole lot easier.</p>
+
+                    <h2>CssCop</h2>
+                    <p>CssCop points out any CSS mistakes. CssCop can check your Css based on set of rules and make sure you are following the best practices and avoid nasty mistakes.</p>
+					
+					<h2>JSLint.NET</h2>
+                    <p>JsLint is a code quality and validation tool for JavaScript, but this particular extension is a wrapper for Douglas Crockford's JSLint that bring this amazing tool to .NET.</p>
+					
+					<h2>Developer Assistant</h2>
+                    <p>Searching for code sample couldn't be any easier with this extension, you can see and use sample code right from your code as you are typing. It also gives you contextual search for your errors and other libraries that you are using. Word of caution though, it causes an exception in Visual Studio 2015, and I had to disable it for the time being, I don't know if the same thing will happen to you or not, I hope future bug fixes rectify this problem.</p>
+
+                    <h2>Code Cracker for C#</h2>
+
+                    <p>In the past, only big companies like JetBrain (Creator of Resharper) could build a code analysis feature and tooling for Visual Studio, because doing so was not an easy task and required a lot of work and money, but with release of Roslyn compiler and set of API that it provides for querying and working with compiler, it is easier to build a code analysis tool for C# and VB, Code Cracker contains set of rules and refactoring and best practices that provide suggestions to improve your code with code fixes that you can use, it is available as both extension and Nuget package which you can use on project by project bases.</p>
+					<br><br><br>
+					<em>Source</em>: <a href="https://www.codeproject.com/Articles/1030539/Top-Must-Have-Free-Extensions-For-Visual-Studio" alt="">Top 14 Must Have Free Extensions For Visual Studio 2015</a>
             </div>
         </div>
-    </div>
+    </article>
 
     <hr>
 
